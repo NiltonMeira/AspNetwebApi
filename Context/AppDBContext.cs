@@ -7,7 +7,6 @@ namespace AspNetwebApi.Context
     {
         public AppDbContext(DbContextOptions<AppDbContext> options): base (options)
         {
-
         }
 
         public DbSet<Category> Categories { get; set; }
